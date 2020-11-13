@@ -7,4 +7,5 @@ group :test do
   gem 'redis-semaphore'
   gem 'redlock'
   gem 'suo'
+  gem 'pg_lock'
 end

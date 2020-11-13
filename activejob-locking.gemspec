@@ -17,6 +17,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency('redis-semaphore')
   s.add_development_dependency('redlock')
   s.add_development_dependency('suo')
+  s.add_development_dependency('pg_lock')
 
   s.description       = <<desc
 activejob-locking lets you control how ActiveJobs are enqueued and performed:
